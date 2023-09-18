@@ -1,0 +1,25 @@
+
+.filterBar{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+.d-flex{
+    margin-right: 25px;
+}
+@media (max-width: 568px){
+    .filterBar{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .me-2{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .d-flex{
+        margin-right: 0px;
+    }
+}

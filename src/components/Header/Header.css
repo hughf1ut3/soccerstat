@@ -1,0 +1,25 @@
+.header{
+    background-color:  #0d6efd;
+}
+
+.me-auto{
+    border-left: 1px white solid;
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-brand:hover, .navLink {
+    color: white;
+}
+
+.navLink:hover {
+    color: #dee2e6;
+}
+
+@media (max-width: 768px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
+
