@@ -1,7 +1,9 @@
-# Getting Started with Create React App
-
-Required API-token from https://www.football-data.org/
-Use .env to add API-token.
+# SoccerStat
+Приложение для просмотра футбольной статистики, написанное на React.
+## Запуск
+- после развертывания репозитория необходимо создать .env файл со следующим содержанием: `REACT_APP_USER_TOKEN = 'YOUR_API_TOKEN'`
+- сконфигурировать сервер [nginx](https://nginx.org/ru/) для работы с API football-data.org без проблем с CORS
+- запустить проект командой: `npm start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
